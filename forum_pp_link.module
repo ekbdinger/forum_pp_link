@@ -1,0 +1,3 @@
+<?php
+
+include_once('forum_pp_link.features.inc');
