@@ -211,6 +211,9 @@ function forum_pp_link_views_default_views() {
     'type' => 'ul',
   ));
   $handler = $view->new_display('node_content', 'Node content', 'node_content_1');
+  $handler->override_option('header', 'Test');
+  $handler->override_option('header_format', '2');
+  $handler->override_option('header_empty', 0);
   $handler->override_option('types', array(
     'primary_page_content' => 'primary_page_content',
   ));
